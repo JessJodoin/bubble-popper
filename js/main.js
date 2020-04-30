@@ -11,6 +11,6 @@ $('html').on('keydown', function (e) {
       'top': Math.random() * (document.documentElement.clientHeight - 100),
       'left': Math.random() * (document.documentElement.clientWidth - 100)
     });
-    $bubble.append($bubble);
+    $body.append($bubble);
   }
 });
