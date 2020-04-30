@@ -30,8 +30,7 @@ html {
   transition:
     width .3s cubic-bezier(.7, -.6, .4, 1.5),
     height .3s cubic-bezier(.7, -.6, .4, 1.5),
-    opacity .3s ease-out
-    ;
+    opacity .3s ease-out;
 }
 
 .is-popping {
@@ -42,6 +41,7 @@ html {
 }
 
 @keyframes bounce {
+
   0% {
     height: 50px;
     width: 50px;
@@ -51,4 +51,5 @@ html {
     height: 100px;
     width: 100px;
   }
+
 }
