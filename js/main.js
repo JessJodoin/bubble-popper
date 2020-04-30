@@ -19,6 +19,6 @@ $body.on('click', '.bubble', function () {
   $(this).addClass('is-popping');
 });
 
-$body.on('transitioned', '.bubble', function () {
+$body.on('transitionend', '.bubble', function () {
   $(this).remove();
 });
