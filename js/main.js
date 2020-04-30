@@ -14,3 +14,11 @@ $('html').on('keydown', function (e) {
     $body.append($bubble);
   }
 });
+
+$body.on('click', '.bubble', function () {
+  $(this).addClass('is-popping');
+});
+
+$body.on('transitioned', '.bubble', function () {
+  $(this).remove();
+});
